@@ -48,7 +48,7 @@ class ClientHandler(socketserver.BaseRequestHandler):
                 time.sleep(3)
 
             if received_string:
-                print("I got this request:", received_string)
+                #print("I got this request:", received_string)
                 data = json.loads(received_string)
                 req = data['request']
 
