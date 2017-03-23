@@ -1,0 +1,7 @@
+help
+login
+logout
+names
+history
+msg
+colors

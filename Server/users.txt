@@ -1,0 +1,1 @@
+name,<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9998), raddr=('127.0.0.1', 50526)>hei3,<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9998), raddr=('127.0.0.1', 50527)>
