@@ -27,7 +27,6 @@ class MessageReceiver(Thread):
                 data = self.connection.recv(4096).decode()
                 if data:
                     self.client.receive_message(data)
-                    time.sleep(0.2)
                     #print("received data:", data)
 
             except ConnectionAbortedError:
